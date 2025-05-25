@@ -1,12 +1,8 @@
 describe('Profile', () => {
     
     beforeEach(() => {
-      cy.viewport(1920, 1090)
-      cy.visit('http://www.automationpractice.pl/index.php?controller=authentication&back=my-account')
-      cy.get('#email').type('assiriasmenezes@gmail.com')
-      cy.get('#passwd').type('teste123')
-      cy.get('#SubmitLogin').click()
-      cy.url().should('eq','http://www.automationpractice.pl/index.php?controller=my-account')
+        cy.accessLoginpage()
+        cy.authenticationFunc()
     })
 
     it('Scenario 1: Add a new address', () => {
@@ -27,6 +23,8 @@ describe('Profile', () => {
 
     it('Scenario 2: Delete an address', () => {
         cy.get('a[title="Addresses"]').click()
-
+        cy.get('div:nth-child(3)>div:nth-child(1)>ul:nth-child(1)>li:nth-child(9)>a[title="Delete"]').click()
+        cy.on('window:confirm', () => true)
     })
+    
 })

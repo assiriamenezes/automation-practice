@@ -1,8 +1,7 @@
 describe('Login', () => {
     
     beforeEach(() => {
-      cy.viewport(1920, 1090)
-      cy.visit('http://www.automationpractice.pl/index.php?controller=authentication&back=my-account')
+      cy.accessLoginpage()
     })
 
     it('Scenario 1: Login with valid credentials', () => {
@@ -19,7 +18,6 @@ describe('Login', () => {
         .should('be.visible')
       cy.contains('An email address required.')
         .should('be.visible')
-
     })
 
     it('Scenario 3: Login with password empty field', () => {
