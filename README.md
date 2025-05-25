@@ -85,6 +85,15 @@ npx cypress run
 ```
 Os resultados do teste serão exibidos no terminal.
 
+## 🐞 Bugs Encontrados 
+[Bug] Tela de Login: Ao deixar todos os campos em branco, no alerta é comentado somente sobre 1 erro (referente ao e-mail obrigatório). ![image](https://github.com/user-attachments/assets/72d9d39e-9aee-447e-808b-57081a820663)
+
+[Bug] Tela de Cadastro: Referente aos campos obrigatórios da tela de criação de conta, os nomes de campos obrigatórios são demonstrados como nomes de id do campo.
+![image](https://github.com/user-attachments/assets/d918d8c1-a103-439f-aa89-d5c67570f3a4)
+
+[Melhoria] Tela de Endereços: Ao deletar um endereço, não é demonstrado um toast de sucesso referente ao endereço deletado com sucesso.
+[Melhoria] Tela de Endereços: Depois de registrar em endereço, não é demonstrado um toast de sucesso referente ao endereço salvo.
+
 ## 🤝 Contribuição
 1. Faça um fork do projeto
 2. Crie sua branch (git checkout -b feature/nova-feature)
