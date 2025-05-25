@@ -85,3 +85,12 @@ npx cypress run
 ```
 Os resultados do teste serão exibidos no terminal.
 
+## 🤝 Contribuição
+1. Faça um fork do projeto
+2. Crie sua branch (git checkout -b feature/nova-feature)
+3. Commit suas mudanças (git commit -m 'Adiciona nova feature')
+4. Push para a branch (git push origin feature/nova-feature)
+5. Abra um Pull Request
+
+##
+<div align="center"> Desenvolvido com ❤️ por <a href="https://github.com/assiriamenezes">Assiria Menezes</a> | <a href="https://github.com/assiriamenezes/automation-practice/issues">Reportar Bug</a> | <a href="https://github.com/assiriamenezes/automation-practice/discussions">Discussões</a> </div>
