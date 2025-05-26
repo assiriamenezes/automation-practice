@@ -92,6 +92,7 @@ Os resultados do teste serão exibidos no terminal.
 ![image](https://github.com/user-attachments/assets/d918d8c1-a103-439f-aa89-d5c67570f3a4)
 
 [Melhoria] Tela de Endereços: Ao deletar um endereço, não é demonstrado um toast de sucesso referente ao endereço deletado com sucesso.
+
 [Melhoria] Tela de Endereços: Depois de registrar em endereço, não é demonstrado um toast de sucesso referente ao endereço salvo.
 
 ## 🤝 Contribuição
